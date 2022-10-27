@@ -50,7 +50,7 @@ struct AngularButtonStyle: ButtonStyle {
             )
             .background(
                 RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
-                    .fill(.angularGradient(colors: [.pink, .purple, .black, .pink], center: .center, startAngle: .degrees(-90), endAngle: .degrees(270)))
+                    .fill(.angularGradient(colors: [.pink, .purple, .blue], center: .center, startAngle: .degrees(-90), endAngle: .degrees(270)))
                     .blur(radius: cornerRadius)
             )
             .strokeStyle(cornerRadius: cornerRadius)
