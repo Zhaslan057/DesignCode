@@ -18,7 +18,7 @@ struct ContentView: View {
             case .home:
                 HomeView()
             case .explore:
-                SearchView()
+                ExploreView()
             case .notifications:
                 AccountView()
             case .library:
@@ -36,6 +36,7 @@ struct ContentView: View {
         .safeAreaInset(edge: .bottom, spacing: 0) {
             Color.clear.frame(height: 44)
         }
+        .dynamicTypeSize(.large ... .xxLarge)
     }
 }
 
